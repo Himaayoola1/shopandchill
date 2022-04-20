@@ -1,0 +1,287 @@
+*, ::after, ::before {
+  box-sizing: border-box !important;
+}
+  
+  body{
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  !important;
+
+  height: 100% !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+    }
+
+  .bg-gradient-primary {
+    background-color: #e2e4eb;
+    background-image: linear-gradient(
+                  180deg,#6584e2 10%,coral 100%);
+    background-size: cover;
+}
+
+  .login {
+    min-height: 100vh;  /* viewport height */
+  }
+  
+  .bg-image {
+    background-image: url('./shopimages/Shop\ and\ Chill.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .btn-login {
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    padding: 28px;
+  }
+  
+  /* product page css*/
+  
+#product-container {
+  margin: 30px auto
+}
+
+
+.container .product-item {
+  min-height: 450px;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0
+}
+
+.container .product-item .product {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer
+}
+
+.container .product-item .product img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+
+.container .product-item .tag {
+  text-transform: uppercase;
+  font-size:12px;
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 0 6.4px
+}
+
+.container .product-item .title {
+  font-size: 15.2px;
+  letter-spacing: 0.5px
+}
+
+
+
+.container .product-item .price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600
+}
+
+.fw-800 {
+  font-weight: 800
+}
+
+.bg-green {
+  background-color: #208f20 !important;
+  color: #fff
+}
+
+.bg-black {
+  background-color: #1f1d1d;
+  color: #fff
+}
+
+.bg-red {
+  background-color: #bb3535;
+  color: #fff
+}
+
+    /*product page Navbar  */
+
+.name {
+  font-size: 16px;
+  color:black !important;
+  font-weight: 500
+}
+
+.navbar-toggler {
+  font-size: 15px
+}
+
+.nav-link {
+  font-size: 14px;
+  color:white !important;
+  font-weight: bold;
+  margin-left: 40px
+}
+.form-control {
+  height: 32px;
+  width: 100%;
+  border-radius: 20px;
+  color: #c7c6cb;
+  font-size: 13px;
+  border: none
+}
+
+.searchitem {
+  position: relative
+}
+
+
+
+/*Product Css */
+.py-5 {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+.d-flex {
+  display: flex !important;
+}
+
+/* Footer Css */
+#footer {
+  background: #404040;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px
+}
+
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #404040
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px
+}
+
+#newsemail {
+  border: 0;
+  padding: 8px;
+  width: auto;
+}
+
+#sub{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 30px;
+  margin: 3px;
+  background: #e96b56;
+  color: #fff;
+  border-radius: 50px
+}
+
+#sub :hover {
+  background: #e6573f
+}
+
+.footer-top {
+  background: #3b3b3b;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  padding: 60px 0 30px 0
+}
+.footer-info {
+  margin-bottom: 30px
+}
+#about{
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700
+}
+
+#info {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff
+}
+
+#useful{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px
+}
+
+#footer-links {
+  margin-bottom: 30px
+}
+
+
+#mylinks {
+  padding: 10px 0;
+  display: flex;
+  align-items: center
+}
+
+
+#footerlinks a {
+  color: #fff;
+  display: inline-block;
+  line-height: 1
+}
+
+.footer-contact {
+  margin-bottom: 30px
+}
+
+.footer-contact p {
+  line-height: 26px
+}
+
+#copyright {
+  text-align: center;
+  padding-top: 30px
+}
+
+#lastdiv {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff
+}
+.label{
+  color: white;
+}
+#maindiv{
+  color: white !important;
+}
+#homebuttton{
+  color: white !important;
+  text-decoration: none !important;
+}
